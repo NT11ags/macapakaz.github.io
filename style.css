@@ -1,0 +1,136 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Secular One', sans-serif;
+}
+html
+{
+
+    height: 100%;
+    /* width: 100%; */
+}
+body
+{
+  height: 100%;
+  /* width: 100%; */
+  display: grid;
+  grid-template-rows: 1fr 0.5fr 8fr 0.5fr;
+  grid-template-areas: "nav" "." "main" ".";
+}
+
+.navigation_wrapper
+{
+  grid-area: nav;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 4fr 1fr 5fr;
+  grid-template-areas: "logo . navLink";
+}
+
+.mainbody_wrapper
+{
+  height: 100%;
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 7fr 7fr 7fr;
+  grid-template-areas: ". form .";
+  overflow: scroll;
+}
+
+.logoContainer
+{
+  grid-area: logo;
+  padding-top: 5%;
+}
+.navigationContainer
+{
+  grid-area: navLink;
+  padding-top: 5%;
+
+}
+.navigationContainer ul
+{
+  list-style-type: none;
+}
+.navigationContainer li
+{
+    float: left;
+    padding: 0 5% 0 5% ;
+}
+.formContainer
+{
+  width: 100%;
+
+  grid-area: form;
+  overflow: scroll;
+}
+.form
+{
+  background-color: #ecf0f1;
+  /* position: absolute; */
+  /* height: 100%; */
+  /* float: left; */
+  background-color: white;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 10px;
+  width: 80%;
+  margin: 10% 10% 10% 10%;
+  -webkit-box-shadow: 0px 12px 53px -19px rgba(0,0,0,0.61);
+  -moz-box-shadow: 0px 12px 53px -19px rgba(0,0,0,0.61);
+  box-shadow: 0px 12px 53px -19px rgba(0,0,0,0.61);
+
+}
+.form h6
+{
+  font-family: 'Roboto Mono', monospace;
+}
+.btn-dark
+{
+  margin: 0% 10% 5% 10%;
+  width: 80%;
+  box-shadow: 0px 12px 53px -19px rgba(0,0,0,0.61);
+}
+.question
+{
+  width: 90%;
+  margin: 10% 5% 10% 5%;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #bababa;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #969696;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #dedede;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: transparent;
+}
+::-webkit-scrollbar-track:active {
+  background: transparent;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+</style>

@@ -786,3 +786,8 @@
   opacity: 1;
   text-align: center;
 }
+.title a
+{
+  color: white;
+  text-decoration: none;
+}

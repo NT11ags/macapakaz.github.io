@@ -604,3 +604,8 @@
   opacity: 1;
   text-align: left;
 }
+.title a
+{
+  color: white;
+  text-decoration: none;
+}

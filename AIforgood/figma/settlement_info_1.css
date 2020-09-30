@@ -508,3 +508,9 @@
   opacity: 1;
   text-align: right;
 }
+
+.title a
+{
+  color: white;
+  text-decoration: none;
+}

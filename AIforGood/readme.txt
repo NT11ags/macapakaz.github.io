@@ -1,1 +1,0 @@
-Prototype AiForGood Client page

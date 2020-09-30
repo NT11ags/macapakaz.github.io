@@ -43,7 +43,7 @@
 .v104_256 {
   width: 400px;
   height: 39px;
-  background: url("../images/v104_256.png");
+  background: url("images/v104_256.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -74,7 +74,7 @@
 .v104_258 {
   width: 400px;
   height: 36px;
-  background: url("../images/v104_258.png");
+  background: url("images/v104_258.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -105,7 +105,7 @@
 .v104_260 {
   width: 400px;
   height: 39px;
-  background: url("../images/v104_260.png");
+  background: url("images/v104_260.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -171,7 +171,7 @@
 }
 .v104_265 {
   width: 215px;
-  color: url("../images/v104_265.png");
+  color: url("images/v104_265.png");
   position: absolute;
   top: 630px;
   left: 520px;

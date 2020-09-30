@@ -65,3 +65,14 @@ body
     grid-template-areas: ". . ." ". tableLog ." ". . .";
   }
 }
+@media (max-width: 400px) {
+  body
+  {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: ". . ." ". tableLog ." ". . .";
+  }
+}

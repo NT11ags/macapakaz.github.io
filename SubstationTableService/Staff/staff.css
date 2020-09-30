@@ -1,0 +1,70 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+h5
+{
+  font-weight: 300;
+}
+
+html
+{
+  height: 100%;
+  width: 100%;
+}
+
+body
+{
+  height: 100%;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.subTable
+{
+  float: left;
+  height: 80%;
+  width: 20%;
+  margin: 3% 3% 3% 3%;
+  -webkit-box-shadow: 0px 10px 36px -13px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 10px 36px -13px rgba(0,0,0,0.57);
+  box-shadow: 0px 10px 36px -13px rgba(0,0,0,0.57);
+}
+
+.tableNumber
+{
+  width: 100%;
+  padding: 5%;
+}
+.customerName
+{
+  width: 100%;
+  padding: 5%;
+}
+.foodItem
+{
+  margin-top: 2%;
+  padding: 5%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "foodTitle foodTitle foodTitle" "price . qty";
+  background-color: #95a5a6;
+}
+.foodItemTitle
+{
+  grid-area: foodTitle;
+}
+.foodItemPrice
+{
+  grid-area: price;
+}
+.foodItemQty
+{
+  grid-area: qty;
+}
